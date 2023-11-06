@@ -1,0 +1,36 @@
+body {
+    background-color: #333;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.editor {
+    display: flex;
+    background-color: #222;
+    height: 100vh;
+}
+
+.explorer, .frames-tab, .properties-tab {
+    width: 250px;
+    background-color: #333;
+    padding: 10px;
+}
+
+.workspace {
+    flex: 1;
+    background-color: #444;
+}
+
+.controls {
+    text-align: center;
+    margin: 10px;
+}
+
+button {
+    background-color: #555;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+}
